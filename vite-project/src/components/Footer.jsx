@@ -1,12 +1,5 @@
 import React from 'react'
 
-/**
- * Footer component
- * Props:
- * - name: name to show in the footer
- * - about: short description or subtitle
- * - copyright: custom copyright text. If omitted a default with current year is shown
- */
 function Footer({ name = 'María José', about = '"Módulo React. Docente Montivero, Lucas Daniel"', copyright }) {
   const year = new Date().getFullYear()
 
