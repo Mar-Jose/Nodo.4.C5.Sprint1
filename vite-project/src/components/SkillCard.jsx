@@ -4,10 +4,12 @@ function SkillsCard({ name, level, isFavorite }) {
       border: '1px solid #219644',
       borderRadius: '8px',
       padding: '8px',
-      margin: '8px 333px',
+      margin: '8px auto',
       display: 'flex',
       justifyContent: 'space-between',
-      alignItems: 'center'
+      alignItems: 'center',
+      flexWrap: 'wrap',
+      gap: '8px', 
     }}>
       <div>
         <h3 style={{ margin: 0 }}>{name.toUpperCase()}</h3>
