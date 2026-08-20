@@ -3,9 +3,9 @@ import SkillList from './SkillList'
 
 
 const ProfileHeader = () => {
-    const [color, setColor] = React.useState('black')
+    const [color, setColor] = React.useState('red')
     const handleAlgoColor = () => {
-    setColor(color === 'black' ? 'red' : 'black')
+    setColor(color === 'red' ? 'green' : 'red')
   }
 
   return (
