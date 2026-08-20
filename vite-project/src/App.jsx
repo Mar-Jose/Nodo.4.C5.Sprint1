@@ -1,26 +1,14 @@
-
 import './App.css'
 import ProfileHeader from './components/ProfileHeader'
+import Skills from './data/Skills.jsx'
 
 function App() {
-  
-
   return (
-    <>
-    <ProfileHeader />
-    /** 
-      <section id="center">
-       
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-      */
-    </>
+    <div>
+      <ProfileHeader />
+      <Skills />
+      
+    </div>
   )
 }
 
