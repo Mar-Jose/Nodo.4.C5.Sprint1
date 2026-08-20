@@ -1,7 +1,7 @@
 # sprint 1 presentación
 
 ## Qué es
-Una o dos líneas.
+Un sprint en donde aplicamos conocimientos de crear vite-projet y usamos componente padre del cual se desprendes los otros componentes, usamos onClick y handle, maps
 
 ## Cómo correrlo
 pnpm dev
